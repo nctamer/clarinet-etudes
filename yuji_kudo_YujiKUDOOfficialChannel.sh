@@ -2,7 +2,7 @@
 #SBATCH --job-name=autoData
 #SBATCH -n 1
 #SBATCH --mem 4000
-#SBATCH -p short                   # Partition to submit to
+#SBATCH -p medium                  # Partition to submit to
 #SBATCH -o %x-%j.out # File to which STDOUT will be written
 #SBATCH -e %x-%j.err # File to which STDERR will be written
 
