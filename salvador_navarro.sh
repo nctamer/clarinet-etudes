@@ -16,7 +16,7 @@ conda init bash
 conda activate supervised
 
 # ROSE
-#40etudes
+#40 etudes
 yt-dlp --yes-playlist https://youtube.com/playlist?list=PLc-qCYYnpdnmnpxm85fHdV5Zezfv3Vw0w -x --audio-format mp3 --audio-quality 0   -o "clarinet/SalvadorNavarro_Rose40_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
 #26 etudes
 yt-dlp --yes-playlist https://www.youtube.com/playlist?list=PLc-qCYYnpdnkn4DdZKp9_tWYNc7XO0Fvw -x --audio-format mp3 --audio-quality 0   -o "clarinet/SalvadorNavarro_Rose26_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
@@ -24,40 +24,68 @@ yt-dlp --yes-playlist https://www.youtube.com/playlist?list=PLc-qCYYnpdnkn4DdZKp
 yt-dlp --yes-playlist https://www.youtube.com/playlist?list=PLc-qCYYnpdnnlogMkH8xZC4AR59mtRhdW -x --audio-format mp3 --audio-quality 0   -o "clarinet/SalvadorNavarro_Rose32_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
 
 
-# LANCELOT NOT YET!!
-#22 etudes
-yt-dlp --yes-playlist --playlist-items 1-22 https://www.youtube.com/playlist?list=PLYFfAh6qcxBH6Htr0EY8npu83SqQNm6Qj -x --audio-format mp3 --audio-quality 0   -o "clarinet/YujiKudo_Lancelot22_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
+# LANCELOT
+#33 etudes 31/33
+yt-dlp --yes-playlist https://www.youtube.com/playlist?list=PLc-qCYYnpdnmnicMASwfLvnBxf_ThQCOq -x --audio-format mp3 --audio-quality 0   -o "clarinet/SalvadorNavarro_Lancelot33_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
+#20 etudes
+yt-dlp --yes-playlist https://www.youtube.com/playlist?list=PLc-qCYYnpdnmnl3ym9BOzw9JwZIYrjBQ5 -x --audio-format mp3 --audio-quality 0   -o "clarinet/SalvadorNavarro_Lancelot20_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
 #25 etudes
-yt-dlp --yes-playlist --playlist-items 1-25 https://www.youtube.com/playlist?list=PLYFfAh6qcxBHPFS7VlOek-7lC6cvIiJIE -x --audio-format mp3 --audio-quality 0   -o "clarinet/YujiKudo_Lancelot25_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
-#15 etudes
-yt-dlp --yes-playlist --playlist-items 1-15 https://www.youtube.com/playlist?list=PLYFfAh6qcxBFV7CPgL-QtGFYSp8q-frbs -x --audio-format mp3 --audio-quality 0   -o "clarinet/YujiKudo_Lancelot15_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
-#33 etudes
-yt-dlp --yes-playlist --playlist-items 1-33 https://www.youtube.com/playlist?list=PLYFfAh6qcxBGukyo000MbGppGtFoPeoGI -x --audio-format mp3 --audio-quality 0   -o "clarinet/YujiKudo_Lancelot33_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
+yt-dlp --yes-playlist https://www.youtube.com/playlist?list=PLc-qCYYnpdnnAEby2YPSx_L3Kcx93MBAc -x --audio-format mp3 --audio-quality 0   -o "clarinet/SalvadorNavarro_Lancelot25_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
 #26 etudes
-yt-dlp --yes-playlist --playlist-items 1-26 https://www.youtube.com/playlist?list=PLYFfAh6qcxBHv66ZsK8EcC2n3rFTsJtus -x --audio-format mp3 --audio-quality 0   -o "clarinet/YujiKudo_Lancelot26_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
+yt-dlp --yes-playlist https://www.youtube.com/playlist?list=PLc-qCYYnpdnneWVM77rd1QhQhlcA0EEme -x --audio-format mp3 --audio-quality 0   -o "clarinet/SalvadorNavarro_Lancelot26_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
+
 
 # GAMBARO
-#20 caprices
-yt-dlp --yes-playlist --playlist-items 1-20 https://www.youtube.com/playlist?list=PLYFfAh6qcxBE_kfhbxGtymMnB945FKH5o -x --audio-format mp3 --audio-quality 0   -o "clarinet/YujiKudo_Gambaro20_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
-
-# BLANCOU
-#40 etudes
-yt-dlp --yes-playlist --playlist-items 1-40 https://www.youtube.com/playlist?list=PLYFfAh6qcxBFcxMlakOlnR3Wu5JA-kV8r -x --audio-format mp3 --audio-quality 0   -o "clarinet/YujiKudo_Blancou40_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
-
-# GALPER
-#Method book 2
-yt-dlp --yes-playlist --playlist-items 1-30 https://www.youtube.com/playlist?list=PLYFfAh6qcxBEwEgDNCl9QknRJu4zDsPpq -x --audio-format mp3 --audio-quality 0   -o "clarinet/YujiKudo_Galper2_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
-
-# KELL
-#17 staccato studies
-yt-dlp --yes-playlist --playlist-items 1-17 https://www.youtube.com/playlist?list=PLYFfAh6qcxBEHG7bnqRL9MkL-2ftlvjpZ -x --audio-format mp3 --audio-quality 0   -o "clarinet/YujiKudo_Kell17Staccato_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
-
-# DELECLUSE
-#20 etudes faciles
-yt-dlp --yes-playlist --playlist-items 1-20 https://www.youtube.com/playlist?list=PLYFfAh6qcxBEq7tEmz58tLqcBW-CgeTco -x --audio-format mp3 --audio-quality 0   -o "clarinet/YujiKudo_Delecluse20_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
+#21 caprices (different from 20 caprices!!!)
+yt-dlp --yes-playlist https://www.youtube.com/playlist?list=PLc-qCYYnpdnkruLhsULjmQDuegxqn_8oM -x --audio-format mp3 --audio-quality 0   -o "clarinet/SalvadorNavarro_Gambaro21_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
+#22 etudes
+yt-dlp --yes-playlist https://www.youtube.com/playlist?list=PLc-qCYYnpdnlqpTAgNFcPOdqumY1go1nC -x --audio-format mp3 --audio-quality 0   -o "clarinet/SalvadorNavarro_Gambaro22_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
 
 
-# WEISSENBORN
-#Advanced studies
-yt-dlp --yes-playlist --playlist-items 1-34 https://www.youtube.com/playlist?list=PLYFfAh6qcxBHxefmilDPOtrefAk-vbyEx -x --audio-format mp3 --audio-quality 0   -o "clarinet/YujiKudo_Weissenborn_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
+# KLOSE
+# 20 etudes
+yt-dlp --yes-playlist https://www.youtube.com/playlist?list=PLc-qCYYnpdnmcijyy4pFryVY3TdFVMj1s -x --audio-format mp3 --audio-quality 0   -o "clarinet/SalvadorNavarro_Klose20_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
+
+# SANTANDREU
+# 18 etudes 5/18
+yt-dlp --yes-playlist https://www.youtube.com/playlist?list=PLc-qCYYnpdnkmLTHYvnd-EtPGl4teycr4 -x --audio-format mp3 --audio-quality 0   -o "clarinet/SalvadorNavarro_Santandreu18_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
+
+# JEANJEAN
+#16 etudes modernos 14/16
+yt-dlp --yes-playlist https://www.youtube.com/playlist?list=PLc-qCYYnpdnl9612UpgQ_PrnIT4jTgie0 -x --audio-format mp3 --audio-quality 0   -o "clarinet/SalvadorNavarro_Jeanjean16modern_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
+
+
+# JETTEL
+#10 etudes 9/10
+yt-dlp --yes-playlist --playlist-items 1-6,8-10 https://www.youtube.com/playlist?list=PLc-qCYYnpdnlgOa4zvMg8IUJjsycJHqCb -x --audio-format mp3 --audio-quality 0   -o "clarinet/SalvadorNavarro_Jettel10_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
+
+
+# ROMERO
+#24 etudes in all tones
+yt-dlp --yes-playlist https://www.youtube.com/playlist?list=PLc-qCYYnpdnnLw7s-Gxhg8N-yFTj9-exC -x --audio-format mp3 --audio-quality 0   -o "clarinet/SalvadorNavarro_Romero24tones_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
+#40 small exercises
+yt-dlp --yes-playlist https://www.youtube.com/playlist?list=PLc-qCYYnpdnkY_sK2bvMmNxnQG_T9wQHV -x --audio-format mp3 --audio-quality 0   -o "clarinet/SalvadorNavarro_Romero40small_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
+
+# POLATSCHEK
+#Advanced etudes
+yt-dlp --yes-playlist https://www.youtube.com/playlist?list=PLc-qCYYnpdnmT1rVUM7E1hBiKeiBjgk5U -x --audio-format mp3 --audio-quality 0   -o "clarinet/SalvadorNavarro_PolatschekAdvanced_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
+
+# SAVINA
+#10 grand etudes (28)
+yt-dlp --yes-playlist https://www.youtube.com/playlist?list=PLc-qCYYnpdnl1IrZXnOgXqUWl51eJ2wZk -x --audio-format mp3 --audio-quality 0   -o "clarinet/SalvadorNavarro_Savina10grand_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
+
+
+# UHL
+#48 etudes
+yt-dlp --yes-playlist https://www.youtube.com/playlist?list=PLc-qCYYnpdnmOPlod5hz_364-tEzB_YUH -x --audio-format mp3 --audio-quality 0   -o "clarinet/SalvadorNavarro_Uhl48_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
+
+
+# BITSCH
+#12 rhythm etudes
+yt-dlp --yes-playlist https://www.youtube.com/playlist?list=PLc-qCYYnpdnm-tbeEGCegcfzqavZqI-xM -x --audio-format mp3 --audio-quality 0   -o "clarinet/SalvadorNavarro_Bitsch12rhythm_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
+
+
+# DUBOIS
+#12 etudes
+yt-dlp --yes-playlist https://www.youtube.com/playlist?list=PLc-qCYYnpdnlh_k4-drX7MBQwVw1PCDJJ -x --audio-format mp3 --audio-quality 0   -o "clarinet/SalvadorNavarro_Dubois12_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
 
