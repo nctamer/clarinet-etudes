@@ -32,6 +32,6 @@ yt-dlp --yes-playlist --playlist-items 1-8,12-15 https://youtube.com/playlist?li
 
 # CAVALLINI
 #30 caprices
-yt-dlp --yes-playlist --playlist-items 1-30 https://www.youtube.com/playlist?list=PL1BEA9814147C4451 -x --audio-format mp3 --audio-quality 0   -o "clarinet/KathyWilliams_Cavallini_30Caprices_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
+yt-dlp --yes-playlist --playlist-items 1-30 https://www.youtube.com/playlist?list=PL1BEA9814147C4451 -x --audio-format mp3 --audio-quality 0   -o "clarinet/KathyWilliams_Cavallini30Caprices_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
 
 
