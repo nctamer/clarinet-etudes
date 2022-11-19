@@ -1,6 +1,3 @@
-yt-dlp --yes-playlist --playlist-items 5-26 https://youtube.com/playlist?list=PLMFLV1svOUsQCTTk8a1tAZG0BYr2CrF4f -x --audio-format mp3 --audio-quality 0   -o "monoSuzuki/S1_MyriadMSDA_%(playlist_index)03d_%(title)s.%(ext)s"
-
-
 # ROSE
 #40etudes (18)
 yt-dlp --yes-playlist https://www.youtube.com/playlist?list=PLYFfAh6qcxBG4lSvrd-HxITItrUlq5PmG -x --audio-format mp3 --audio-quality 0   -o "clarinet/YujiKudo_%(playlist_index)03d_%(title)s.%(ext)s"
